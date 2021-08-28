@@ -1,6 +1,7 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
-const useResizeObserver = (ref) => {
+const useResizeObserver = () => {
+  const ref = useRef(null)
   const [height, setHeight] = useState()
   const [width, setWidth] = useState()
 
@@ -25,7 +26,7 @@ const useResizeObserver = (ref) => {
     }
   }
 
-  return [width, height]
+  return [ref, width, height]
 }
 
 export default useResizeObserver
