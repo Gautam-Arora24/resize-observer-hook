@@ -1,4 +1,7 @@
 # resize-observer-hook
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > A hook that uses Resize Observer API to monitor changes in the size of an element.
 
@@ -47,3 +50,23 @@ When you're done working on your changes, submit a PR with the details and inclu
 ## License
 
 MIT © [Gautam-Arora24](https://github.com/Gautam-Arora24), and [the contributors](https://github.com/Gautam-Arora24/resize-observer-hook/graphs/contributors).
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://www.youtube.com/channel/UCEGSSc70uT-SFH-7EdbzT2w"><img src="https://avatars.githubusercontent.com/u/53913514?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gautam Arora</b></sub></a><br /><a href="https://github.com/Gautam-Arora24/resize-observer-hook/commits?author=Gautam-Arora24" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
