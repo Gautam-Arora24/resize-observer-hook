@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Gautam-Arora24",
+      "name": "Gautam Arora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53913514?v=4",
+      "profile": "https://www.youtube.com/channel/UCEGSSc70uT-SFH-7EdbzT2w",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "resize-observer-hook",
+  "projectOwner": "Gautam-Arora24",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
