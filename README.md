@@ -18,8 +18,7 @@ import React, { useRef } from 'react'
 import useResizeObserver from 'resize-observer-hook'
 
 const App = () => {
-  const ref = useRef()
-  const [width, height] = useResizeObserver(ref)
+  const [ref, width, height] = useResizeObserver(ref)
 
   return (
     <div ref={ref}>
