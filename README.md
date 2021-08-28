@@ -31,7 +31,7 @@ const App = () => {
 
 ## Contributing
 
-[You can help this library to grow by contributing here](https://github.com/resize-observer-hook/issues). Pick any issue or open one. Let us know what you are working on and ask your questions in the issues itself :)
+[You can help this library to grow by contributing here](https://github.com/Gautam-Arora24/resize-observer-hook/issues). Pick any issue or open one. Let us know what you are working on and ask your questions in the issues itself :)
 
 The package is made up of 1 main folders:
 
