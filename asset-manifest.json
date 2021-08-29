@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/resize-observer-hook/static/css/main.76e8236d.chunk.css",
+    "main.js": "/resize-observer-hook/static/js/main.fbdc9ccf.chunk.js",
+    "main.js.map": "/resize-observer-hook/static/js/main.fbdc9ccf.chunk.js.map",
+    "runtime-main.js": "/resize-observer-hook/static/js/runtime-main.0053b0c8.js",
+    "runtime-main.js.map": "/resize-observer-hook/static/js/runtime-main.0053b0c8.js.map",
+    "static/js/2.c6939a77.chunk.js": "/resize-observer-hook/static/js/2.c6939a77.chunk.js",
+    "static/js/2.c6939a77.chunk.js.map": "/resize-observer-hook/static/js/2.c6939a77.chunk.js.map",
+    "index.html": "/resize-observer-hook/index.html",
+    "precache-manifest.cf25c58fc8af79565a51b6839f84f2e1.js": "/resize-observer-hook/precache-manifest.cf25c58fc8af79565a51b6839f84f2e1.js",
+    "service-worker.js": "/resize-observer-hook/service-worker.js",
+    "static/css/main.76e8236d.chunk.css.map": "/resize-observer-hook/static/css/main.76e8236d.chunk.css.map",
+    "static/js/2.c6939a77.chunk.js.LICENSE.txt": "/resize-observer-hook/static/js/2.c6939a77.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0053b0c8.js",
+    "static/js/2.c6939a77.chunk.js",
+    "static/css/main.76e8236d.chunk.css",
+    "static/js/main.fbdc9ccf.chunk.js"
+  ]
+}
