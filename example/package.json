@@ -12,9 +12,9 @@
     "deploy": "gh-pages -b master -d build"
   },
   "dependencies": {
-    "react": "file:../node_modules/react",
-    "react-dom": "file:../node_modules/react-dom",
-    "react-scripts": "file:../node_modules/react-scripts",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1",
     "resize-observer-hook": "^1.0.2"
   },
   "devDependencies": {
