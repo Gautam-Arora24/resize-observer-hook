@@ -19,12 +19,12 @@ npm install --save resize-observer-hook
 ## Usage
 
 ```jsx
-import React, { useRef } from 'react'
+import React from 'react'
 
 import useResizeObserver from 'resize-observer-hook'
 
 const App = () => {
-  const [ref, width, height] = useResizeObserver(ref)
+  const [ref, width, height] = useResizeObserver()
 
   return (
     <div ref={ref}>
