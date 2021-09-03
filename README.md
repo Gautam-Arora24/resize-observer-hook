@@ -1,5 +1,7 @@
 # resize-observer-hook
+<img src="https://user-images.githubusercontent.com/74927578/132028559-afdb6cd7-dc32-4d44-a91e-bf129f985b07.gif" height="400px"></img>
 
+logo by [mehan](https://github.com/mehanalavimajd)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
