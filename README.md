@@ -3,9 +3,7 @@
 
 logo by [mehan](https://github.com/mehanalavimajd)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > A hook that uses Resize Observer API to monitor changes in the size of an element.
@@ -71,6 +69,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.youtube.com/channel/UCEGSSc70uT-SFH-7EdbzT2w"><img src="https://avatars.githubusercontent.com/u/53913514?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gautam Arora</b></sub></a><br /><a href="https://github.com/Gautam-Arora24/resize-observer-hook/commits?author=Gautam-Arora24" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/mehanalavimajd"><img src="https://avatars.githubusercontent.com/u/74927578?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mehan</b></sub></a><br /><a href="#design-mehanalavimajd" title="Design">🎨</a></td>
   </tr>
 </table>
 
