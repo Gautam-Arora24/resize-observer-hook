@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 
-const useResizeObserver = () => {
+const useResizeObserver = (option = 'contentRect') => {
   const ref = useRef(null)
   const [height, setHeight] = useState()
   const [width, setWidth] = useState()
@@ -17,12 +17,28 @@ const useResizeObserver = () => {
         observer.disconnect()
       }
     }
-  }, [ref])
+  })
 
   const handleResize = (entries) => {
     for (let entry of entries) {
-      setHeight(entry.contentRect.height)
-      setWidth(entry.contentRect.width)
+      if (
+        option === 'borderBoxSize' &&
+        entry.borderBoxSize &&
+        entry.borderBoxSize.length > 0
+      ) {
+        setHeight(entry.borderBoxSize[0].blockSize)
+        setWidth(entry.borderBoxSize[0].inlineSize)
+      } else if (
+        option === 'contentBoxSize' &&
+        entry.contentBoxSize &&
+        entry.contentBoxSize.length > 0
+      ) {
+        setHeight(entry.contentBoxSize[0].blockSize)
+        setWidth(entry.contentBoxSize[0].inlineSize)
+      } else {
+        setHeight(entry.contentRect.height)
+        setWidth(entry.contentRect.width)
+      }
     }
   }
 
