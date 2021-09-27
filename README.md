@@ -1,9 +1,11 @@
 # resize-observer-hook
+
 <img src="https://user-images.githubusercontent.com/74927578/132028559-afdb6cd7-dc32-4d44-a91e-bf129f985b07.gif" height="400px"></img>
 
-logo by [mehan](https://github.com/mehanalavimajd)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > A hook that uses Resize Observer API to monitor changes in the size of an element.
@@ -33,6 +35,22 @@ const App = () => {
   )
 }
 ```
+
+You can add multiple `ResizeObserverBoxOptions` to the useResizeObserver like this ->
+
+```
+const [ref,width,height] = useResizeObserver("borderBoxSize");
+```
+
+`ResizeObserverBoxOptions` that are supported currently in the library ->
+
+- **borderBoxSize**
+- **contentBoxSize**
+- **contentRect**
+
+Note ⚠️ - Some options aren't supported in some broswers so if you provide any option that is not being supported in your current browser, it will automatically use `contentRect` to calculate height and width of the observed element.
+
+See more details over here -> https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserverEntry
 
 <img src='./media/example.gif'></img>
 
