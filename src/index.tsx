@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react';
 
 const useResizeObserver = (option = 'contentRect') => {
   const ref = useRef(null)
