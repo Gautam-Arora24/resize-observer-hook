@@ -13,7 +13,7 @@
 ## Install
 
 ```bash
-npm install --save resize-observer-hook
+npm install resize-observer-hook
 ```
 
 ## Usage
