@@ -3,7 +3,7 @@
 <img src="https://user-images.githubusercontent.com/74927578/132028559-afdb6cd7-dc32-4d44-a91e-bf129f985b07.gif" height="400px"></img>
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > A hook that uses Resize Observer API to monitor changes in the size of an element.
@@ -88,6 +88,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/mehanalavimajd"><img src="https://avatars.githubusercontent.com/u/74927578?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mehan</b></sub></a><br /><a href="#design-mehanalavimajd" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/nikhilmaske-2001"><img src="https://avatars.githubusercontent.com/u/59444243?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nikhil Maske</b></sub></a><br /><a href="https://github.com/Gautam-Arora24/resize-observer-hook/commits?author=nikhilmaske-2001" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/sarthakvaishnav09"><img src="https://avatars.githubusercontent.com/u/61916071?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Batman09</b></sub></a><br /><a href="https://github.com/Gautam-Arora24/resize-observer-hook/commits?author=sarthakvaishnav09" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/keshavgbpecdelhi"><img src="https://avatars.githubusercontent.com/u/56075233?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Keshav </b></sub></a><br /><a href="https://github.com/Gautam-Arora24/resize-observer-hook/commits?author=keshavgbpecdelhi" title="Documentation">📖</a></td>
   </tr>
 </table>
 
