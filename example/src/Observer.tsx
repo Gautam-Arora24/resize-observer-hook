@@ -1,5 +1,5 @@
 import React from 'react'
-import useResizeObserver from 'resize-observer-hook'
+import useResizeObserver from 'resize-observer-hook';
 import './styles.css'
 
 const Observer = () => {
