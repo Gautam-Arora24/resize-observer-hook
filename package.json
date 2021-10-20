@@ -1,6 +1,6 @@
 {
   "name": "resize-observer-hook",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A hook that uses Resize Observer API to monitor changes in the size of an element.",
   "author": "Gautam-Arora24",
   "license": "MIT",
