@@ -4,11 +4,11 @@ const useResizeObserver = (option = 'contentRect') => {
   const ref = useRef(null);
   const [height, setHeight] = useState();
   const [width, setWidth] = useState();
-
+  const element = ref.current
   useEffect(() => {
-    if (ref.current) {
+    if (element) {
       const observer = new ResizeObserver((entries) => {
-        handleResize(entries);
+        handleResize(element);
       });
       observer.observe(ref.current);
 
@@ -19,7 +19,7 @@ const useResizeObserver = (option = 'contentRect') => {
     }
     // Added this return for eslint rule -> no-consisten-return
     return undefined;
-  });
+  },[element]);
 
   function handleResize(entries) {
     for (const entry of entries) {
