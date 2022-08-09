@@ -10,7 +10,7 @@ const useResizeObserver = (option = 'contentRect') => {
       const observer = new ResizeObserver((entries) => {
         handleResize(element);
       });
-      observer.observe(ref.current);
+      observer.observe(element);
 
       // Callback fired when component is unmounted
       return () => {
