@@ -49,6 +49,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "gimhol",
+      "name": "gim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14888225?v=4",
+      "profile": "https://gim.ink",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
