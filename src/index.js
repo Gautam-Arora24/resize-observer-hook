@@ -23,24 +23,8 @@ const useResizeObserver = (option = 'contentRect') => {
 
   function handleResize(entries) {
     for (const entry of entries) {
-      if (
-        option === 'borderBoxSize' &&
-        entry.borderBoxSize &&
-        entry.borderBoxSize.length > 0
-      ) {
-        setHeight(entry.borderBoxSize[0].blockSize);
-        setWidth(entry.borderBoxSize[0].inlineSize);
-      } else if (
-        option === 'contentBoxSize' &&
-        entry.contentBoxSize &&
-        entry.contentBoxSize.length > 0
-      ) {
-        setHeight(entry.contentBoxSize[0].blockSize);
-        setWidth(entry.contentBoxSize[0].inlineSize);
-      } else {
-        setHeight(entry.contentRect.height);
-        setWidth(entry.contentRect.width);
-      }
+      setWidth(entry.contentRect.width);
+      setHeight(entry.contentRect.height);
     }
   }
 
